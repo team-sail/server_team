@@ -1,5 +1,19 @@
 # Setting the number of threads in .bashrc for each user
 
+## Feature 
+
+The code loop all the directories and add text in `.bashrc`. 
+
+```
+- mem1
+  - .bashrc
+- mem2
+  - .bashrc
+- mem3 # ignore as there is no .bashrc
+  - none 
+```
+
+## Run
 
 ```
 # you may need sudo to change user .bashrc

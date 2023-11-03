@@ -6,8 +6,11 @@ then
     echo "------------------"
     for user in */
     do 
-        echo $user
-        cat export.txt >>  $user/.bashrc 
+        if [ -f   $user/.bashrc  ]
+        then
+            echo $user
+            cat export.txt >>  $user/.bashrc 
+        fi
     done 
     echo "------------------"
     echo "export.txt is appended to user .bashrc"
