@@ -1,0 +1,20 @@
+# Setting the number of threads in .bashrc for each user
+
+
+```
+# you may need sudo to change user .bashrc
+bash run.sh 
+
+```
+
+## Adding Text
+
+```
+
+# -----  Utilize CPU Processes  ----------------
+export MKL_NUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
+export OMP_NUM_THREADS=1
+# ---------------------
+
+```
